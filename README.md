@@ -5,11 +5,37 @@
 [![License](https://img.shields.io/cocoapods/l/DATTouchID.svg?style=flat)](http://cocoapods.org/pods/DATTouchID)
 [![Platform](https://img.shields.io/cocoapods/p/DATTouchID.svg?style=flat)](http://cocoapods.org/pods/DATTouchID)
 
-## Example
+Use DATTouchID to access or store data using biometrics or passcode to authenticate
+
+## Example Project
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Example Implementation
+
+```ruby
+
+- (void) viewDidLoad{
+  ...
+  self.touchId = [DATTouchID new];
+  if (self.touchId.hasData){
+    ... update interface
+  }
+}
+
+- (void) loadData{
+  [self.touchId getDataWithPrompt:@"Load stored credentials" complete:^(NSData *data, NSError *error) {
+    ...
+  }];
+}
+
+- (void) saveData{
+  NSData* data = ...;
+  [self.touchId setData:data complete:^(BOOL success, NSError * error) {
+    ...
+  }];
+}
+```
 
 ## Installation
 

@@ -1,9 +1,9 @@
 {
   "name": "DATTouchID",
   "version": "0.1.0",
-  "summary": "A short description of DATTouchID.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/DATTouchID",
+  "summary": "DATTouchID uses the devices biometrics or passcode to access or store data.",
+  "description": "Use DATTouchID to access or store data using biometrics or passcode to authenticate.",
+  "homepage": "https://github.com/datinc/DATTouchID",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,12 @@
     "Peter Gulyas": "peter@datinc.ca"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/DATTouchID.git",
+    "git": "https://github.com/datinc/DATTouchID.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/datincca",
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "DATTouchID/Classes/**/*"
 }

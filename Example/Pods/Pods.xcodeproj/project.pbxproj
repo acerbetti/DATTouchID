@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02B53360223F74C02B23566708514D7E /* DATTouchID.h in Headers */ = {isa = PBXBuildFile; fileRef = B218992674CD626DE02F7E1DD3B24AE3 /* DATTouchID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		214EFF8FA91B151D262DED246FC52E73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		3D8466D59AF204E6F7128CB67F2252E8 /* Pods-DATTouchID_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C89D958FB5D71BA804A817CA4CDFEA /* Pods-DATTouchID_Example-dummy.m */; };
-		492D311D07969F3B2567F42D654908B3 /* DATTouchID-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C7848A233B5F7EE1D3D75D719AB5AB /* DATTouchID-dummy.m */; };
+		4C37A3F156A640C85A3EF258ECD480AD /* DATTouchID-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C7848A233B5F7EE1D3D75D719AB5AB /* DATTouchID-dummy.m */; };
 		63E6420E39668A54E8E6585F5DBEC014 /* Pods-DATTouchID_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E710E84DFB37BE207C325B2EAAC93E04 /* Pods-DATTouchID_Tests-dummy.m */; };
 		7342A6A104D0BF52979A027252BF775D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		880093E7E8085840A552404CDBC7CB7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		96690A372A3A49D1C2F4C89DAA0A5DDD /* Pods-DATTouchID_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C0A9ABC50AD6D77649F3025772D874 /* Pods-DATTouchID_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5D1AAA692A8FB40ABE15896030D2562 /* DATTouchID-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 877B940B28F015EA379F7ACA20D9D075 /* DATTouchID-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D1CA55BA1D0B4BB10089A5D3 /* DATTouchID.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CA55B81D0B4BB10089A5D3 /* DATTouchID.h */; };
-		D1CA55BB1D0B4BB10089A5D3 /* DATTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CA55B91D0B4BB10089A5D3 /* DATTouchID.m */; };
+		C1D2852948C62628F2D5D2105C7DFAFA /* DATTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = 20169A0628F3B6E158EB3E363E6A922B /* DATTouchID.m */; };
+		DC399F5F23DE249C03AB2BA15A38942B /* DATTouchID-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 877B940B28F015EA379F7ACA20D9D075 /* DATTouchID-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC4BE1849C28ACC9A0129E7553EF8132 /* Pods-DATTouchID_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CFE7914F51A5D0E2EDB7A5933F793E9 /* Pods-DATTouchID_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5DF154BE7177EE82AB55E56FEC60804 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -25,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B01BC0CACBCF5A01941ADCC62C5B0145;
+			remoteGlobalIDString = B00CC26048EFC8E011C6A70B2A208DB2;
 			remoteInfo = DATTouchID;
 		};
 /* End PBXContainerItemProxy section */
@@ -35,6 +35,7 @@
 		12338EEE2E9CAB39171714156336CEF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16C89D958FB5D71BA804A817CA4CDFEA /* Pods-DATTouchID_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DATTouchID_Example-dummy.m"; sourceTree = "<group>"; };
 		1B750156477EF82BDC8CA4823D143F43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20169A0628F3B6E158EB3E363E6A922B /* DATTouchID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DATTouchID.m; sourceTree = "<group>"; };
 		303094CF311AF07E47CE1C314C6CF9E8 /* Pods-DATTouchID_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DATTouchID_Example.modulemap"; sourceTree = "<group>"; };
 		376F83658A50304BA5812DDBD6A3605C /* Pods-DATTouchID_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DATTouchID_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4D6F5ABEE6713296DE1A213728FABFAD /* Pods-DATTouchID_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DATTouchID_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -49,13 +50,12 @@
 		8CFE7914F51A5D0E2EDB7A5933F793E9 /* Pods-DATTouchID_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DATTouchID_Example-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9671AEF73FD71A7E18C76A7B2D970439 /* DATTouchID.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DATTouchID.modulemap; sourceTree = "<group>"; };
+		B218992674CD626DE02F7E1DD3B24AE3 /* DATTouchID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DATTouchID.h; sourceTree = "<group>"; };
 		B5B359C1221D6546210C16E7B02EE04C /* Pods-DATTouchID_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DATTouchID_Tests-resources.sh"; sourceTree = "<group>"; };
 		C2C0A9ABC50AD6D77649F3025772D874 /* Pods-DATTouchID_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DATTouchID_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D04E41CE5AEE281B59C5B50D7D340EA3 /* Pods_DATTouchID_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DATTouchID_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06C603F8D651D47382DE2D5095866C8 /* Pods-DATTouchID_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DATTouchID_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D1CA55B81D0B4BB10089A5D3 /* DATTouchID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DATTouchID.h; sourceTree = "<group>"; };
-		D1CA55B91D0B4BB10089A5D3 /* DATTouchID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DATTouchID.m; sourceTree = "<group>"; };
 		D2B71B1B03FD3DC79640A0E71C247862 /* DATTouchID.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DATTouchID.xcconfig; sourceTree = "<group>"; };
 		DA1C87E69A0B0E3F4B071E5053771600 /* DATTouchID-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DATTouchID-prefix.pch"; sourceTree = "<group>"; };
 		E1C7848A233B5F7EE1D3D75D719AB5AB /* DATTouchID-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DATTouchID-dummy.m"; sourceTree = "<group>"; };
@@ -67,14 +67,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4F8CAA75B5CCA28B49EC6525249A666A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				880093E7E8085840A552404CDBC7CB7B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		721F7ABD7AFCE081C839053B477CCFE4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,6 +83,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F28D428D0F7350D8034E4A37700AE438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214EFF8FA91B151D262DED246FC52E73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -104,10 +104,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		23492EE6709FE1124AF3C2D1B162641A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B218992674CD626DE02F7E1DD3B24AE3 /* DATTouchID.h */,
+				20169A0628F3B6E158EB3E363E6A922B /* DATTouchID.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		2E924DADD2863BB4F98C2AC1FC3D1B17 /* DATTouchID */ = {
 			isa = PBXGroup;
 			children = (
-				73AE1496A4D4F59D00E4009546BDE6DF /* DATTouchID */,
+				3E6C50C8544970811B92371B0B4C26EC /* DATTouchID */,
 				91477D71BDADA07EFB9622083851955F /* Support Files */,
 			);
 			name = DATTouchID;
@@ -122,13 +131,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		577F0315C49AA6244A3AC00C000CC145 /* Classes */ = {
+		3E6C50C8544970811B92371B0B4C26EC /* DATTouchID */ = {
 			isa = PBXGroup;
 			children = (
-				D1CA55B81D0B4BB10089A5D3 /* DATTouchID.h */,
-				D1CA55B91D0B4BB10089A5D3 /* DATTouchID.m */,
+				23492EE6709FE1124AF3C2D1B162641A /* Classes */,
 			);
-			path = Classes;
+			path = DATTouchID;
 			sourceTree = "<group>";
 		};
 		72368339F630DF44274F13269DF61346 /* Pods-DATTouchID_Tests */ = {
@@ -147,14 +155,6 @@
 			);
 			name = "Pods-DATTouchID_Tests";
 			path = "Target Support Files/Pods-DATTouchID_Tests";
-			sourceTree = "<group>";
-		};
-		73AE1496A4D4F59D00E4009546BDE6DF /* DATTouchID */ = {
-			isa = PBXGroup;
-			children = (
-				577F0315C49AA6244A3AC00C000CC145 /* Classes */,
-			);
-			path = DATTouchID;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -236,20 +236,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		41DD1BE8C4E86980610461228E8E6834 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC399F5F23DE249C03AB2BA15A38942B /* DATTouchID-umbrella.h in Headers */,
+				02B53360223F74C02B23566708514D7E /* DATTouchID.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5B66C5CBB8F9765C79E86DDF5E11BFB4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				96690A372A3A49D1C2F4C89DAA0A5DDD /* Pods-DATTouchID_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6BCF07F7DF664F1DA1A9353507B86A50 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A5D1AAA692A8FB40ABE15896030D2562 /* DATTouchID-umbrella.h in Headers */,
-				D1CA55BA1D0B4BB10089A5D3 /* DATTouchID.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,13 +273,13 @@
 			productReference = D04E41CE5AEE281B59C5B50D7D340EA3 /* Pods_DATTouchID_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B01BC0CACBCF5A01941ADCC62C5B0145 /* DATTouchID */ = {
+		B00CC26048EFC8E011C6A70B2A208DB2 /* DATTouchID */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4870480169BF424820DDF9084E4E1DD /* Build configuration list for PBXNativeTarget "DATTouchID" */;
+			buildConfigurationList = 30F183368AB46B14155604F0F3F57BC8 /* Build configuration list for PBXNativeTarget "DATTouchID" */;
 			buildPhases = (
-				B5DF79C49B5CFD0B83D13C945A2CA6A7 /* Sources */,
-				4F8CAA75B5CCA28B49EC6525249A666A /* Frameworks */,
-				6BCF07F7DF664F1DA1A9353507B86A50 /* Headers */,
+				0BD11BCBA83C78ABD531C7EC94A4645F /* Sources */,
+				F28D428D0F7350D8034E4A37700AE438 /* Frameworks */,
+				41DD1BE8C4E86980610461228E8E6834 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -329,7 +329,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B01BC0CACBCF5A01941ADCC62C5B0145 /* DATTouchID */,
+				B00CC26048EFC8E011C6A70B2A208DB2 /* DATTouchID */,
 				D3CF8639E725B0453DD2CDCA91872D42 /* Pods-DATTouchID_Example */,
 				5DCA29DE38B36B8B7F61D43C8E2093E8 /* Pods-DATTouchID_Tests */,
 			);
@@ -337,20 +337,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0BD11BCBA83C78ABD531C7EC94A4645F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C37A3F156A640C85A3EF258ECD480AD /* DATTouchID-dummy.m in Sources */,
+				C1D2852948C62628F2D5D2105C7DFAFA /* DATTouchID.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		92A15B431B33EFBF9647917CD820500B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				63E6420E39668A54E8E6585F5DBEC014 /* Pods-DATTouchID_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5DF79C49B5CFD0B83D13C945A2CA6A7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D1CA55BB1D0B4BB10089A5D3 /* DATTouchID.m in Sources */,
-				492D311D07969F3B2567F42D654908B3 /* DATTouchID-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,175 +368,13 @@
 		BD2DCFCDEA0A99EF47DB4BCD6F3FD103 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DATTouchID;
-			target = B01BC0CACBCF5A01941ADCC62C5B0145 /* DATTouchID */;
+			target = B00CC26048EFC8E011C6A70B2A208DB2 /* DATTouchID */;
 			targetProxy = B476D5EC7E32B5F308C713773DBF5415 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		5BF83955FA5270D474ED5369E3ED3B67 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2B71B1B03FD3DC79640A0E71C247862 /* DATTouchID.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DATTouchID/DATTouchID-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DATTouchID/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DATTouchID/DATTouchID.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = DATTouchID;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5F37EEC22C7EB4BD6775A7AD9FAF2FD6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 738C39212D3F22178A57561239388A70 /* Pods-DATTouchID_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DATTouchID_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DATTouchID_Tests/Pods-DATTouchID_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DATTouchID_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		65FC3A9BB8401BCF250F5D7E1B0D7F97 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2B71B1B03FD3DC79640A0E71C247862 /* DATTouchID.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DATTouchID/DATTouchID-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DATTouchID/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DATTouchID/DATTouchID.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DATTouchID;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C9A5E2B8792F2BB89C80A977D857E431 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E42C2C053F28936B37047E6DC8BE1F35 /* Pods-DATTouchID_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DATTouchID_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DATTouchID_Example/Pods-DATTouchID_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DATTouchID_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -571,20 +409,53 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		F487CD9EDCDBC8F6AB72DE91EAE0C3DD /* Debug */ = {
+		19B9A195494509121EB360726F88EA28 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D06C603F8D651D47382DE2D5095866C8 /* Pods-DATTouchID_Example.debug.xcconfig */;
+			baseConfigurationReference = 738C39212D3F22178A57561239388A70 /* Pods-DATTouchID_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DATTouchID_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DATTouchID_Tests/Pods-DATTouchID_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DATTouchID_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		51E610B0E97257A2228765AB877D023A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E42C2C053F28936B37047E6DC8BE1F35 /* Pods-DATTouchID_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -593,11 +464,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-DATTouchID_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DATTouchID_Example/Pods-DATTouchID_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -609,9 +480,38 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		F9C8C8841F6C25E7A88088E32A33B1D3 /* Debug */ = {
+		6ACAF44CD8A7E979753327EE06C09F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B71B1B03FD3DC79640A0E71C247862 /* DATTouchID.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DATTouchID/DATTouchID-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DATTouchID/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DATTouchID/DATTouchID.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DATTouchID;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		785E1E53C664082FB70570A941ABA876 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FC23F8AA506C22B7FEDAE9EEBA0F0808 /* Pods-DATTouchID_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -626,7 +526,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-DATTouchID_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DATTouchID_Tests/Pods-DATTouchID_Tests.modulemap";
@@ -644,14 +544,123 @@
 			};
 			name = Debug;
 		};
+		84196D82729C0497837BB9AB90BADAD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D06C603F8D651D47382DE2D5095866C8 /* Pods-DATTouchID_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DATTouchID_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DATTouchID_Example/Pods-DATTouchID_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DATTouchID_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6458489A2545A65C6A2161B68B41146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B71B1B03FD3DC79640A0E71C247862 /* DATTouchID.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DATTouchID/DATTouchID-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DATTouchID/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DATTouchID/DATTouchID.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DATTouchID;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
-				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30F183368AB46B14155604F0F3F57BC8 /* Build configuration list for PBXNativeTarget "DATTouchID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6458489A2545A65C6A2161B68B41146 /* Debug */,
+				6ACAF44CD8A7E979753327EE06C09F3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -659,17 +668,8 @@
 		867749103F5052FB569AC8A78B9FB65B /* Build configuration list for PBXNativeTarget "Pods-DATTouchID_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F487CD9EDCDBC8F6AB72DE91EAE0C3DD /* Debug */,
-				C9A5E2B8792F2BB89C80A977D857E431 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A4870480169BF424820DDF9084E4E1DD /* Build configuration list for PBXNativeTarget "DATTouchID" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				65FC3A9BB8401BCF250F5D7E1B0D7F97 /* Debug */,
-				5BF83955FA5270D474ED5369E3ED3B67 /* Release */,
+				84196D82729C0497837BB9AB90BADAD6 /* Debug */,
+				51E610B0E97257A2228765AB877D023A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -677,8 +677,8 @@
 		BB2BFB557306C781D3B7E416AC7C5B8A /* Build configuration list for PBXNativeTarget "Pods-DATTouchID_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F9C8C8841F6C25E7A88088E32A33B1D3 /* Debug */,
-				5F37EEC22C7EB4BD6775A7AD9FAF2FD6 /* Release */,
+				785E1E53C664082FB70570A941ABA876 /* Debug */,
+				19B9A195494509121EB360726F88EA28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

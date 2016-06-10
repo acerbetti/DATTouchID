@@ -1,0 +1,6 @@
+framework module DATTouchID {
+  umbrella header "DATTouchID-umbrella.h"
+
+  export *
+  module * { export * }
+}

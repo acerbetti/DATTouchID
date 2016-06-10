@@ -1,0 +1,22 @@
+{
+  "name": "DATTouchID",
+  "version": "0.1.0",
+  "summary": "A short description of DATTouchID.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/DATTouchID",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Peter Gulyas": "peter@datinc.ca"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/DATTouchID.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DATTouchID/Classes/**/*"
+}

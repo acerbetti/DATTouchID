@@ -46,10 +46,6 @@ it, simply add the following line to your Podfile:
 pod "DATTouchID"
 ```
 
-## Author
-
-Peter Gulyas
-
 ## License
 
 DATTouchID is available under the MIT license. See the LICENSE file for more info.

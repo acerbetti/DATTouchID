@@ -27,7 +27,6 @@ typedef NS_ENUM(NSInteger, DATTouchIDAuthenticationType){
 @property (nonatomic, readonly) BOOL hasData;
 
 - (void) setData:(NSData*)data complete:(void(^)(BOOL success, NSError * error))complete;
-- (void) getDataWithComplete:(void(^)(NSData* data, NSError * error))complete;
 - (void) getDataWithPrompt:(NSString*) prompt complete:(void(^)(NSData* data, NSError * error))complete;
 
 @end

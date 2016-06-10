@@ -15,7 +15,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *loadCredentialsButton;
 @property (weak, nonatomic) IBOutlet UIButton *clearCredentialsButton;
 
-@property (nonatomic, nullable, strong) DATTouchID* touchId;
+@property (nonatomic, strong) DATTouchID* touchId;
 @end
 
 @implementation DATViewController
@@ -56,7 +56,7 @@
     NSData* data = [NSJSONSerialization dataWithJSONObject:info options:0 error:nil];
     
     __weak DATViewController* this = self;
-    [self.touchId setData:data complete:^(BOOL success, NSError * _Nullable error) {
+    [self.touchId setData:data complete:^(BOOL success, NSError * error) {
         [this updateButtons];
         if (!success && error){
             [this presentErrorWithTitle:@"Error" message:error.localizedDescription complete:nil];
@@ -77,7 +77,7 @@
 
 - (IBAction)loginUsingStoredCredentials {
     __weak DATViewController* this = self;
-    [self.touchId getDataWithComplete:^(NSData * _Nullable data, NSError * _Nullable error) {
+    [self.touchId getDataWithPrompt:@"Load stored credentials" complete:^(NSData *data, NSError *error) {
         if (data){
             NSDictionary* info = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
             [this presentSavedUsername:info[@"username"] password:info[@"password"]];
@@ -123,7 +123,7 @@
 
 - (IBAction) clearSavedCredentials {
     __weak DATViewController* this = self;
-    [self.touchId setData:nil complete:^(BOOL success, NSError * _Nullable error) {
+    [self.touchId setData:nil complete:^(BOOL success, NSError * error) {
         [this updateButtons];
         if (!success && error){
             [this presentErrorWithTitle:@"Error" message:error.localizedDescription complete:nil];

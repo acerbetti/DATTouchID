@@ -107,10 +107,6 @@
     
 }
 
-- (void) getDataWithComplete:(void(^)(NSData* data, NSError * error))complete{
-    [self getDataWithPrompt:nil complete:complete];
-}
-
 - (void) getDataWithPrompt:(NSString*) prompt complete:(void(^)(NSData* data, NSError* error))complete{
     
     dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{

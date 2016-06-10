@@ -48,7 +48,7 @@ pod "DATTouchID"
 
 ## Author
 
-Peter Gulyas, peter@datinc.ca
+Peter Gulyas
 
 ## License
 

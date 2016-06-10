@@ -16,7 +16,9 @@
 
 @implementation DATTouchID
 
-- (instancetype) initWithKey:(NSString* __nonnull ) key type:(DATTouchIDAuthenticationType) type{
+- (instancetype) initWithKey:(NSString*) key type:(DATTouchIDAuthenticationType) type{
+    NSParameterAssert(key);
+    
     self = [super init];
     if (self){
         self.key = key;
@@ -33,7 +35,7 @@
     return [self initWithKey:@"DATTouchID-authentication"];
 }
 
-+ (BOOL) touchIdAvailable:(DATTouchIDAuthenticationType) type error:(NSError * __nullable * __nullable)error{
++ (BOOL) touchIdAvailable:(DATTouchIDAuthenticationType) type error:(NSError **)error{
     LAContext* context = [LAContext new];
     
     switch (type) {
@@ -43,7 +45,7 @@
     }
 }
 
-- (BOOL) isAvailable:(NSError * __nullable * __nullable)error{
+- (BOOL) isAvailable:(NSError**)error{
     return [[self class] touchIdAvailable:self.type error:error];
 }
 
@@ -105,11 +107,11 @@
     
 }
 
-- (void) getDataWithComplete:(void(^ __nullable)(NSData* __nullable data, NSError * __nullable error))complete{
+- (void) getDataWithComplete:(void(^)(NSData* data, NSError * error))complete{
     [self getDataWithPrompt:nil complete:complete];
 }
 
-- (void) getDataWithPrompt:(NSString* __nullable) prompt complete:(void(^ __nullable)(NSData* __nullable data, NSError * __nullable error))complete{
+- (void) getDataWithPrompt:(NSString*) prompt complete:(void(^)(NSData* data, NSError* error))complete{
     
     dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         
@@ -149,7 +151,7 @@
     return [NSError errorWithDomain:NSOSStatusErrorDomain code:status userInfo:@{NSLocalizedDescriptionKey: [self keychainErrorToString:status]}];
 }
 
-- (void) setData:(NSData *)data complete:(void(^)(BOOL success, NSError * __nullable error))complete{
+- (void) setData:(NSData *)data complete:(void(^)(BOOL success, NSError * error))complete{
     
     NSError *error = nil;
     

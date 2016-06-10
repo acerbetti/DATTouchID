@@ -16,18 +16,18 @@ typedef NS_ENUM(NSInteger, DATTouchIDAuthenticationType){
 
 @interface DATTouchID : NSObject
 
-+ (BOOL) touchIdAvailable:(DATTouchIDAuthenticationType) type error:(NSError * __nullable * __nullable)error;
-- (BOOL) isAvailable:(NSError * __nullable * __nullable)error;
++ (BOOL) touchIdAvailable:(DATTouchIDAuthenticationType) type error:(NSError **)error;
+- (BOOL) isAvailable:(NSError **)error;
 
-- (instancetype __nullable) initWithKey:(NSString* __nonnull) key type:(DATTouchIDAuthenticationType) type;
-- (instancetype __nullable) initWithKey:(NSString* __nonnull) key;
+- (instancetype) initWithKey:(NSString* ) key type:(DATTouchIDAuthenticationType) type;
+- (instancetype) initWithKey:(NSString* ) key;
 
-@property (nonatomic, readonly, nonnull) NSString* key;
+@property (nonatomic, readonly) NSString* key;
 @property (nonatomic, readonly) DATTouchIDAuthenticationType type;
 @property (nonatomic, readonly) BOOL hasData;
 
-- (void) setData:(NSData* __nullable)data complete:(void(^ __nullable)(BOOL success, NSError * __nullable error))complete;
-- (void) getDataWithComplete:(void(^ __nullable)(NSData* __nullable data, NSError * __nullable error))complete;
-- (void) getDataWithPrompt:(NSString* __nullable) prompt complete:(void(^ __nullable)(NSData* __nullable data, NSError * __nullable error))complete;
+- (void) setData:(NSData*)data complete:(void(^)(BOOL success, NSError * error))complete;
+- (void) getDataWithComplete:(void(^)(NSData* data, NSError * error))complete;
+- (void) getDataWithPrompt:(NSString*) prompt complete:(void(^)(NSData* data, NSError * error))complete;
 
 @end

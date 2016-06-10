@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DATTouchID_Example' do
+  pod 'DATTouchID', :path => '../'
+
+  target 'DATTouchID_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
